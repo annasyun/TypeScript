@@ -35,7 +35,7 @@
   printName("jobs");
   printName("tomas");
 
-  //Default parameter
+  //Default parameter 지정가능
   function printMessage(str: string = "default message") {
     console.log(str);
   }
