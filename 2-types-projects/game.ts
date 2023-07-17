@@ -3,6 +3,7 @@
   let position: Position = { x: 0, y: 0 };
 
   type Method = "up" | "down" | "left" | "right";
+  
   function move(method: Method): object {
     let update_position = { ...position };
     switch (method) {
